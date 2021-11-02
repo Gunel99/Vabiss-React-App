@@ -1,1 +1,15 @@
-.icon-pawn { color: red; }
+.icon-pawn {
+    color: red;
+}
+.dx-button-mode-contained {
+    background-color: #2ecc71 !important;
+}
+.dx-toolbar-text-auto-hide .dx-button .dx-icon {
+    color: #ffffff !important;
+}
+.dx-item-content.dx-toolbar-item-content:hover .dx-button-mode-contained {
+    background-color: #ffffff !important;
+}
+.dx-item-content.dx-toolbar-item-content:hover .dx-toolbar-text-auto-hide.dx-button.dx-icon {
+    color: #2ecc71 !important;
+}
