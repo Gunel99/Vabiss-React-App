@@ -10,6 +10,33 @@
 .dx-item-content.dx-toolbar-item-content:hover .dx-button-mode-contained {
     background-color: #ffffff !important;
 }
-.dx-item-content.dx-toolbar-item-content:hover .dx-toolbar-text-auto-hide.dx-button.dx-icon {
+.dx-item-content.dx-toolbar-item-content:hover .dx-icon.dx-icon-edit-button-addrow {
     color: #2ecc71 !important;
+}
+.dx-link {
+    &.dx-link-add.dx-icon-add.dx-link-icon,
+    &.dx-link-edit.dx-icon-edit.dx-link-icon,
+    &.dx-link-delete.dx-icon-trash.dx-link-icon,
+    &.dx-link-save.dx-icon-save.dx-link-icon,
+    &.dx-link-cancel.dx-icon-revert.dx-link-icon {
+        color: #b2b2b2;
+    }
+}
+
+.dx-link {
+    &.dx-link-edit.dx-icon-edit.dx-link-icon:hover {
+        color: #3498db;
+    }
+    &.dx-link.dx-link-add.dx-icon-add.dx-link-icon:hover {
+        color: #2ecc71;
+    }
+    &.dx-link-delete.dx-icon-trash.dx-link-icon:hover {
+        color: #c0392b;
+    }
+    &.dx-link-save.dx-icon-save.dx-link-icon:hover {
+        color: #8e44ad;
+    }
+    &.dx-link-cancel.dx-icon-revert.dx-link-icon:hover {
+        color: #555555;
+    }
 }

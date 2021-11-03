@@ -17,5 +17,6 @@ export const data = [
   { id: 16, name: "Ərəbqardaşbəyli", parent_id: 3, status: true },
   { id: 17, name: "Xanməmmədli", parent_id: 3, status: false },
   { id: 18, name: "Kürkənd", parent_id: 3, status: true },
+  { id: 19, name: "xx", parent_id: 4, status: true },
 ];
 
