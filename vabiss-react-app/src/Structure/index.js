@@ -39,8 +39,9 @@ const Structure = () => {
 
   const onEditorPreparing = (e) => {
     console.log(store);
-    if (e.dataField === "parent_id" && e.row.data.id === 1) {
-      e.cancel = true;
+    if (e.dataField === "parent_id") {
+      console.log(store);
+      // e.cancel = true;
       // e.lookup.dataSource._array = [...getAvailable(store._array, e.row.key)];
       // console.log(store);
     }
@@ -135,7 +136,7 @@ const Structure = () => {
           <h1 className="text-center fw-bold mb-4">Vabiss React App</h1>
           <div id="tree-list-demo">
             <TreeList
-              dataSource={store._array}
+              dataSource={data}
               showBorders={true}
               columnAutoWidth={true}
               wordWrapEnabled={true}
